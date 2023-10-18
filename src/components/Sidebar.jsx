@@ -31,7 +31,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("dashboard")}
             >
@@ -45,7 +45,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("product")}
             >
@@ -60,7 +60,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("Customers")}
             >
@@ -75,7 +75,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("Income")}
             >
@@ -90,7 +90,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("Promo")}
             >
@@ -105,7 +105,7 @@ const Sidebar = () => {
             }`}
           >
             <a
-              href="#"
+              href="/"
               className="text-lg items-center flex gap-2"
               onClick={() => handleItemClick("Help")}
             >

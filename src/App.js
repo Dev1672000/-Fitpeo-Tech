@@ -1,10 +1,7 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
-import HeaderBox from "./components/HeaderBox";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { Doughnut } from "react-chartjs-2";
-import Menu from "./components/Menu";
 import Home from "./pages/Home";
 import ProductTable from "./components/ProductTable";
 
@@ -16,7 +13,6 @@ function App() {
         <Sidebar />
       </div>
       <div className="w-[83%] p-5  space-y-4">
-       
         <Header />
         <Home />
         <ProductTable />

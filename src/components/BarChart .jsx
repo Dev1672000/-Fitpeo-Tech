@@ -60,33 +60,28 @@ const options = {
   },
   scales: {
     x: {
-      display: true, 
+      display: true,
       beginAtZero: true,
+      grid: {
+        display: false,
+      },
     },
     y: {
       display: false,
+      grid: {
+        display: false,
+      },
     },
   },
   layout: {
     padding: {
       left: 10,
       right: 10,
-      top: 10, 
-      bottom: 10, 
+      top: 10,
+      bottom: 10,
     },
   },
-  scales: {
-    x: {
-      grid: {
-        display: false, 
-      },
-    },
-    y: {
-      grid: {
-        display: false, 
-      },
-    },
-  },
+ 
 };
 
 export function BarChart() {
