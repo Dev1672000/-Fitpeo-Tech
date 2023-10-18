@@ -32,7 +32,7 @@ const ProductTable = () => {
 
   const searchedProducts = filteredProducts.filter((product) =>
     product.name.toLowerCase().includes(search.toLowerCase()),
-    setSearch('')
+   
   );
 
   return (
